@@ -143,9 +143,9 @@ line-height: 30px;
 }
 
 .sale-btn{
-    display: inline-flex;
-padding: 20px 43px;
-text-align: center;
+ display:inline-flex;
+padding : 20px 43px;
+align-items: center;
 gap: 10px;
 border-radius: 8px;
 background: #E55473;
@@ -238,4 +238,37 @@ background: #FFF;
 .shop-image img{
     width: 250px;
     height: 400px;
+}
+.footer{
+    background: black;
+    color: #FFF;
+    align-items: center;
+}
+.foot-title{
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+
+}
+.foot-sp{
+    color: #E55473;
+}
+.foot-des{
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
+.foot-copy{
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
 }
