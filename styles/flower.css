@@ -1,0 +1,159 @@
+body{
+    font-family: Lato;
+}
+.banner{
+    display: flex;
+    width: auto;
+height: 850px;
+background: rgba(229, 84, 115, 0.10);
+
+}
+.container{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.banner-image{
+    width: 500px;
+    height: 400px
+}
+.banner-content .banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+}
+.banner-btn{
+display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+border: none;
+color: white;
+}
+/*features-container */
+.features-content .features-title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+.features-content .features-description{
+ color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+
+
+.features-image{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 24px;
+}
+.flower-1{  
+    padding: 20px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15); 
+margin: 5px;
+
+
+}
+.flower-1 img{
+    width: 310px;
+height: 428px;
+}
+.flower-2 img{
+    width: 310px;
+height: 428px;
+}
+.flower-3 img{
+    width: 310px;
+   height: 428px;
+}
+
+.flower-2{  
+    padding: 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15); 
+    margin: 5px;
+}
+.flower-3{  
+    padding: 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15); 
+    margin: 5px;
+
+
+}
+.flower-name {
+    
+    display: flex;
+ justify-content: space-between; 
+  align-items: center;
+  margin: 0px 50px;
+  text-decoration: underline;
+}
+.service{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    justify-content: space-between;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+margin-right: 200px;
+margin-left: 200px;
+padding: 20px;
+}
+
+.sale{
+    display: flex;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+   padding-left: 40px;
+   padding-right: 40px;
+   justify-content: center;
+} 
+.sale-content{
+
+}
+.sale-content .sale-title{
+    text-align: center;
+color: #272727;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+
+}
+.sale-contet .sale-description{
+    
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.sale-image{
+
+
+}
+.sale-btn{
+    display: inline-flex;
+padding: 20px 43px;
+text-align: center;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+border: none;
+color: white;
+
+}
+
