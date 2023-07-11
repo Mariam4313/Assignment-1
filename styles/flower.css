@@ -141,10 +141,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
-.sale-image{
 
-
-}
 .sale-btn{
     display: inline-flex;
 padding: 20px 43px;
@@ -156,4 +153,89 @@ border: none;
 color: white;
 
 }
+.instagram-content .instagram-title{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
 
+}
+.instagram-content .instagram-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
+.instagram-image {
+    display: flex;
+    
+
+    
+}
+.instagram-image img{
+    margin-right: 5px;
+    padding-right: 10px;
+    width: 250px;
+    
+
+}
+.deals{
+    background-image: url('../images/Rectangle\ 9.png');
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+.deals-title{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+}
+.deals-descripton{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.deals-us{
+    display: flex;
+    
+}
+.deals-form{
+width: 500px;
+height: 40px;
+border-radius: 8px;
+background: #FFF;
+}
+.deals-btn{
+    display: flex;
+    
+    padding: 20px 43px;
+    margin-left: 5px;
+    text-align: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+    
+}
+.shop{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.shop-image img{
+    width: 250px;
+    height: 400px;
+}
